@@ -1,0 +1,76 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\Public\Documents\Altium\Simple DOC converter\LDO-PCB.PcbDoc
+Date     : 06-12-2024
+Time     : 20:30:56
+
+Processing Rule : Clearance Constraint (Gap=0.254mm) (All),(All)
+   Violation between Clearance Constraint: (Collision < 0.254mm) Between Pad  J2-1(23mm,5.5mm) on Top Layer And Track (21.5mm,5.5mm)(22.5mm,5.5mm) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 0.254mm) Between Pad C2-1(18.5mm,7mm) on Top Layer And Track (16mm,7mm)(18mm,7mm) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 0.254mm) Between Pad C2-1(18.5mm,7mm) on Top Layer And Track (18.5mm,7mm)(21.5mm,5.5mm) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 0.254mm) Between Pad U1-5(16mm,7mm) on Top Layer And Track (16mm,7mm)(18mm,7mm) on Top Layer 
+Rule Violations :4
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+   Violation between Short-Circuit Constraint: Between Pad  J2-1(23mm,5.5mm) on Top Layer And Track (21.5mm,5.5mm)(22.5mm,5.5mm) on Top Layer Location : [X = 125.89mm][Y = 54.5mm]
+   Violation between Short-Circuit Constraint: Between Pad C2-1(18.5mm,7mm) on Top Layer And Track (16mm,7mm)(18mm,7mm) on Top Layer Location : [X = 121.476mm][Y = 56mm]
+   Violation between Short-Circuit Constraint: Between Pad C2-1(18.5mm,7mm) on Top Layer And Track (18.5mm,7mm)(21.5mm,5.5mm) on Top Layer Location : [X = 122.285mm][Y = 55.827mm]
+   Violation between Short-Circuit Constraint: Between Pad U1-5(16mm,7mm) on Top Layer And Track (16mm,7mm)(18mm,7mm) on Top Layer Location : [X = 119.674mm][Y = 56mm]
+Rule Violations :4
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+   Violation between Un-Routed Net Constraint: Net +3v3 Between Pad C2-1(18.5mm,7mm) on Top Layer And Pad  J2-1(23mm,5.5mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net +3v3 Between Pad U1-5(16mm,7mm) on Top Layer And Pad C2-1(18.5mm,7mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Polygon  (NONET_L02_P000) on Bottom Layer Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (16mm,7mm)(18mm,7mm) on Top Layer Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (18.5mm,7mm)(21.5mm,5.5mm) on Top Layer Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (21.5mm,5.5mm)(22.5mm,5.5mm) on Top Layer Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Net GND Between Via (11mm,4mm) from Top Layer to Bottom Layer And Via (12.5mm,6.05mm) from Top Layer to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (11mm,4mm) from Top Layer to Bottom Layer And Via (18.5mm,3.575mm) from Top Layer to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (8.5mm,5.75mm) from Top Layer to Bottom Layer And Via (11mm,4mm) from Top Layer to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (18.5mm,3.575mm) from Top Layer to Bottom Layer And Via (25mm,6.75mm) from Top Layer to Bottom Layer 
+Rule Violations :10
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.254mm) (Max=0.254mm) (Preferred=0.254mm) (All)
+   Violation between Width Constraint: Track (16mm,7mm)(18mm,7mm) on Top Layer Actual Width = 0.3mm, Target Width = 0.254mm
+Rule Violations :1
+
+Processing Rule : Routing Topology Rule(Topology=Shortest) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.025mm) (Max=2.54mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=0.254mm) (IsPad),(All)
+   Violation between Silk To Solder Mask Clearance Constraint: (0.225mm < 0.254mm) Between Pad  J2-2(23mm,6.75mm) on Top Layer And Track (23.25mm,7.425mm)(23.25mm,9mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.225mm]
+Rule Violations :1
+
+Processing Rule : Silk to Silk (Clearance=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+   Violation between Net Antennae: Via (11mm,4mm) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (12.5mm,6.05mm) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (18.5mm,3.575mm) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (25mm,6.75mm) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (8.5mm,5.75mm) from Top Layer to Bottom Layer 
+Rule Violations :5
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+
+Violations Detected : 25
+Waived Violations : 0
+Time Elapsed        : 00:00:00
